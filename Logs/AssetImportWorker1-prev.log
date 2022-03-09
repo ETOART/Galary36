@@ -1,0 +1,588 @@
+Unity Editor version:    2021.2.1f1 (c20c6d589440)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0 (Build 21A344)
+Darwin version:          21.0.1
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/2021.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/filippgerasimov/Documents/GitHub/Galary36
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61415
+Successfully changed project path to: /Users/filippgerasimov/Documents/GitHub/Galary36
+/Users/filippgerasimov/Documents/GitHub/Galary36
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 136.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.1f1 (c20c6d589440)
+[Subsystems] Discovering subsystems at path /Applications/2021.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/filippgerasimov/Documents/GitHub/Galary36/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/2021.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2021.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/2021.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56787
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2021.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001388 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 130.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.743 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1744ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1009ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (709ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (420ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003061 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 140.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 102]
+
+UnityEngine.UnityException: Creating asset at path Assets/XR/Loaders/Magic Leap Loader.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeLoaderFromMetadata (System.String packageName, System.Collections.Generic.List`1[T] loaderMetadatas) [0x0004e] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00001] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:130)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
+
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  3.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3370ms)
+		BeginReloadAssembly (321ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (2832ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (2006ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (1422ms)
+				ProcessInitializeOnLoadMethodAttributes (229ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/2021.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5530 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5980.
+Memory consumption went from 341.0 MB to 340.3 MB.
+Total: 4.126292 ms (FindLiveObjects: 0.424334 ms CreateObjectMapping: 0.159584 ms MarkObjects: 3.160459 ms  DeleteObjects: 0.380375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 323877.262372 seconds.
+  path: Assets/URP Settings
+  artifactKey: Guid(867d33905f0c60c4e885272627b47334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP Settings using Guid(867d33905f0c60c4e885272627b47334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd699f29dce78c5834afbd8eadbe38d41') in 0.011879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 959.497416 seconds.
+  path: Assets/Scenes/XR Origin Variant.prefab
+  artifactKey: Guid(c22a8f6dc5520463f804cea349c40315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/XR Origin Variant.prefab using Guid(c22a8f6dc5520463f804cea349c40315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91985d76deb838a9c2796852b6aac89') in 0.729985 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 6059.
+Memory consumption went from 232.4 MB to 231.7 MB.
+Total: 18.728167 ms (FindLiveObjects: 0.688167 ms CreateObjectMapping: 0.191875 ms MarkObjects: 17.466834 ms  DeleteObjects: 0.380042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 6059.
+Memory consumption went from 232.5 MB to 231.8 MB.
+Total: 4.145833 ms (FindLiveObjects: 0.388459 ms CreateObjectMapping: 0.156541 ms MarkObjects: 3.314125 ms  DeleteObjects: 0.286250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 416.406234 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png
+  artifactKey: Guid(a36153625af524c1f9fb6e04b5ed3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png using Guid(a36153625af524c1f9fb6e04b5ed3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178413b60e1421b1653eb622760b2f26') in 1.285625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005030 seconds.
+  path: Assets/Galary36/ARScence/Painting/Textures/AD03F739-EE7B-41A3-9766-496552F5DAAE-a8ee3286-1024x678.jpeg
+  artifactKey: Guid(b28c250ed46a596489088c4a5745e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Painting/Textures/AD03F739-EE7B-41A3-9766-496552F5DAAE-a8ee3286-1024x678.jpeg using Guid(b28c250ed46a596489088c4a5745e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffdc24b3e6420a7672ee279c9de1bbf') in 1.027466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003429 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Displacement.jpg
+  artifactKey: Guid(a5604d0f06952d24fa760e8bf2e67cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Displacement.jpg using Guid(a5604d0f06952d24fa760e8bf2e67cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a9bb71321f518d212a0ed115decdc6') in 0.555647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.185759 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_NormalGL.jpg
+  artifactKey: Guid(0abf7ccdce40d8b4e86b4b13f9933f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_NormalGL.jpg using Guid(0abf7ccdce40d8b4e86b4b13f9933f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eeb7786cdaaecf6d959019e6b6fdc1b') in 0.010826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.090074 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_PREVIEW.jpg
+  artifactKey: Guid(ebcbb153fa29c364aa107bda81f013d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_PREVIEW.jpg using Guid(ebcbb153fa29c364aa107bda81f013d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbd9cba428ccf92d0219dd1fb5aecac') in 0.008988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048529 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_Color.jpg
+  artifactKey: Guid(6139069b47e04e24385cfd3c351a456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_Color.jpg using Guid(6139069b47e04e24385cfd3c351a456b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c911bd3f462b03cb060ea400273f8a') in 0.009410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125108 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_NormalDX.jpg
+  artifactKey: Guid(ddf7857ba204a7743a0f45534e4a65fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_NormalDX.jpg using Guid(ddf7857ba204a7743a0f45534e4a65fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3cf36f7a710dcef71ef68f44f56c64') in 0.010842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088431 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_Roughness.jpg
+  artifactKey: Guid(71832d60add429c498581bb2ff3d88ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_Roughness.jpg using Guid(71832d60add429c498581bb2ff3d88ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b953573ec07d31b64868ed8fd39408') in 0.009280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040962 seconds.
+  path: Assets/Galary36/ARScence/Painting/Textures/image-79b58db6-1024x768.jpg
+  artifactKey: Guid(c392b600541d0fc4d9442607761f75bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Painting/Textures/image-79b58db6-1024x768.jpg using Guid(c392b600541d0fc4d9442607761f75bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78165b2a02115d50018cb582fa5f96a') in 0.011585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.161285 seconds.
+  path: Assets/Galary36/Common/SplachScreen/logo.png
+  artifactKey: Guid(35e901988e5193e4d99f401c78612387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/Common/SplachScreen/logo.png using Guid(35e901988e5193e4d99f401c78612387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddae05bce3ae591cd4b50a6fee74aaf') in 0.069218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.191801 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_Color.jpg
+  artifactKey: Guid(187203bb2f0adc64a83b3a95030a6f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_Color.jpg using Guid(187203bb2f0adc64a83b3a95030a6f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013a68c2b98f4dcd125dd837afc7afd8') in 0.009059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_Displacement.jpg
+  artifactKey: Guid(d7195bc751d87da46b9c6bda1de55ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_Displacement.jpg using Guid(d7195bc751d87da46b9c6bda1de55ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d794699e2c435d4e9f7c1b1e512d95') in 0.008249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115892 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_NormalGL.jpg
+  artifactKey: Guid(7f765c5935980ce47b77546c6623d402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_NormalGL.jpg using Guid(7f765c5935980ce47b77546c6623d402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fec032e3f2ea95a7294f24b5a329b80') in 0.008208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004394 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_PREVIEW.jpg
+  artifactKey: Guid(2b3edc3bb45e8ce48aed53de06bf0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_PREVIEW.jpg using Guid(2b3edc3bb45e8ce48aed53de06bf0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fe0573b340693f3e8ad56f59baaa52') in 0.009775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006599 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Displacement.jpg
+  artifactKey: Guid(10a4b10b696b85e4dba9526756f96a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Displacement.jpg using Guid(10a4b10b696b85e4dba9526756f96a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f979a86078b92b10c5569fb973b150b') in 0.009525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_NormalDX.jpg
+  artifactKey: Guid(4334ae3cc1471c04e8660532646ba333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_NormalDX.jpg using Guid(4334ae3cc1471c04e8660532646ba333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049101a1ad1c87f1b22fa476ae72f680') in 0.009869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094097 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Roughness.jpg
+  artifactKey: Guid(ae2a464bf166064469c65330784c119f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Roughness.jpg using Guid(ae2a464bf166064469c65330784c119f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693e79aac21fde196d64a6599cccdf8c') in 0.008713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.774934 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_NormalDX.jpg
+  artifactKey: Guid(cfcaf1bf872f4d9458156b4d8361e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_NormalDX.jpg using Guid(cfcaf1bf872f4d9458156b4d8361e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdbb8a467308f7ccfa61e9bb9208afa') in 0.009729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113726 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Color.jpg
+  artifactKey: Guid(57d5a7d53cf984b4489bfa4df0e6a78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Color.jpg using Guid(57d5a7d53cf984b4489bfa4df0e6a78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bba5afe0d877fb58c19836bab53e45') in 0.009645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.297762 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_PREVIEW.jpg
+  artifactKey: Guid(13d1192612e50204d984029a3e1164ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_PREVIEW.jpg using Guid(13d1192612e50204d984029a3e1164ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52add7ce563dc951db7982b7ac948491') in 0.009386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046290 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_NormalGL.jpg
+  artifactKey: Guid(6f517bb79b71e0143a08ae34f0724352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_NormalGL.jpg using Guid(6f517bb79b71e0143a08ae34f0724352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b440b1dccb6abd88b8a3c85c055e12') in 0.009309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094463 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_Displacement.jpg
+  artifactKey: Guid(1d9673f2bf071474096c1a9d470d17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_Displacement.jpg using Guid(1d9673f2bf071474096c1a9d470d17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c1263758d97d3ee1565f6c1735de08') in 0.009609 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002567 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:29)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:29)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+[Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
+
+We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:108)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
+
+Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:157)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
+UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.235 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3238ms)
+		BeginReloadAssembly (357ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (44ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (148ms)
+		EndReloadAssembly (2656ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1668ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (1203ms)
+				ProcessInitializeOnLoadMethodAttributes (246ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (51ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(2) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5435 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (343.5 KB). Loaded Objects now: 6385.
+Memory consumption went from 373.9 MB to 373.5 MB.
+Total: 4.325792 ms (FindLiveObjects: 0.376708 ms CreateObjectMapping: 0.151625 ms MarkObjects: 3.679917 ms  DeleteObjects: 0.116792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (344.6 KB). Loaded Objects now: 6385.
+Memory consumption went from 264.3 MB to 263.9 MB.
+Total: 12.080250 ms (FindLiveObjects: 0.572709 ms CreateObjectMapping: 0.153625 ms MarkObjects: 11.198083 ms  DeleteObjects: 0.154792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 786.085399 seconds.
+  path: Assets/URP Settings/URP.asset
+  artifactKey: Guid(f02b4824208468f46be09be37f785779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URP Settings/URP.asset using Guid(f02b4824208468f46be09be37f785779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21ae84c4a80afb2c0ea98c2962e0fcd') in 0.151038 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (371.9 KB). Loaded Objects now: 6385.
+Memory consumption went from 268.6 MB to 268.2 MB.
+Total: 15.909291 ms (FindLiveObjects: 0.811375 ms CreateObjectMapping: 0.169833 ms MarkObjects: 12.251500 ms  DeleteObjects: 2.674166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (343.6 KB). Loaded Objects now: 6385.
+Memory consumption went from 268.6 MB to 268.2 MB.
+Total: 36.697167 ms (FindLiveObjects: 2.684542 ms CreateObjectMapping: 0.173166 ms MarkObjects: 33.678542 ms  DeleteObjects: 0.159541 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
