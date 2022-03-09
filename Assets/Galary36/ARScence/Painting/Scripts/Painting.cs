@@ -5,8 +5,16 @@ using UnityEngine;
 
 public class Painting : MonoBehaviour
 {
-    [SerializeField] private Texture _texture;
     [SerializeField] private GameObject _renderPlane;
+
+    public PaintingData _paintingData { get; private set; }
+
+
+    public void Initialize(PaintingData paintingData)
+    {
+        _paintingData = paintingData;
+        changePlaneTexture();
+    }
 
     private void Awake()
     {
@@ -14,17 +22,17 @@ public class Painting : MonoBehaviour
     }
     private void Update()
     {
-        changePlaneTexture(_texture);
+        
     }
 
-    private void changePlaneTexture(Texture texture)
+    private void changePlaneTexture()
     {
-        ChangePlaneScale(texture.width,texture.height);
-        _renderPlane.GetComponent<Renderer>().material.mainTexture = texture;
+        ChangePlaneScale();
+        _renderPlane.GetComponent<Renderer>().material.mainTexture = _paintingData.texture;
     }
 
-    private void ChangePlaneScale(float width, float height)
+    private void ChangePlaneScale()
     {
-        _renderPlane.gameObject.transform.localScale = new Vector3(width / height, 1, 1);
+        _renderPlane.gameObject.transform.localScale = new Vector3(_paintingData.width, 1, _paintingData.height);
     }
 }
