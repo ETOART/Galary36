@@ -36,10 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Galary36\ARScence\Baguette\Scripts\BaguetteResize.cs" />
+     <Compile Include="Assets\Galary36\ARScence\Painting\Scripts\Painting.cs" />
      <Compile Include="Assets\Galary36\InitScence\UI\Scripts\ScenceLoader.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
      <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
-     <Compile Include="Assets\Galary36\ARScence\Painting\Scripts\Painting.cs" />
      <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

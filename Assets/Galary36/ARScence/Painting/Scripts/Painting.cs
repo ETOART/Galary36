@@ -10,7 +10,7 @@ public class Painting : MonoBehaviour
 
     private void Awake()
     {
-        
+        changePlaneTexture(_texture);
     }
     private void Update()
     {
