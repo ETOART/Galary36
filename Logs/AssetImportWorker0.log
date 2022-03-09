@@ -712,3 +712,21 @@ Received Import Request.
   path: Assets/Galary36/ARScence
   artifactKey: Guid(7e4405310d03f0c418bc6e6a5fa8c388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Galary36/ARScence using Guid(7e4405310d03f0c418bc6e6a5fa8c388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583f244de9352e423ce42af8e3f0aa3f') in 0.002511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2690.518303 seconds.
+  path: Assets/Galary36/Common/SplachScreen
+  artifactKey: Guid(d4edac61b6c7e3d409e727450fcf7f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/Common/SplachScreen using Guid(d4edac61b6c7e3d409e727450fcf7f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7ca17f273cc968895d63ad4d05a82c') in 0.003983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.345794 seconds.
+  path: Assets/Galary36/Common/SplachScreen/logo копия.png
+  artifactKey: Guid(40b428cb0427f4969b9a3c3f531d2da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/Common/SplachScreen/logo копия.png using Guid(40b428cb0427f4969b9a3c3f531d2da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af1898b1549aa415a817c240c7fb2d6') in 0.056311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.212122 seconds.
+  path: Assets/Galary36/Common/SplachScreen/logo копия.png
+  artifactKey: Guid(40b428cb0427f4969b9a3c3f531d2da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/Common/SplachScreen/logo копия.png using Guid(40b428cb0427f4969b9a3c3f531d2da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0479eb027fe1a534590a67706de23815') in 0.090319 seconds 
