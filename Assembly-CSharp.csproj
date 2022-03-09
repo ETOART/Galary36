@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,12 +53,15 @@
     <UnityVersion>2021.2.1f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Galary36\InitScence\UI\Scripts\ScenceLoader.cs" />
-    <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
-    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Galary36\ARScence\Painting\Scripts\Painting.cs" />
     <Compile Include="Assets\Galary36\ARScence\Painting\Scripts\PaintingsController.cs" />
     <Compile Include="Assets\Galary36\ARScence\Painting\Scripts\PaintingData.cs" />
+    <Compile Include="Assets\Galary36\InitScence\UI\Scripts\ScenceLoader.cs" />
+    <Compile Include="Assets\ExampleAssets\Scripts\ARFeatheredPlaneMeshVisualizer.cs" />
+    <Compile Include="Assets\ExampleAssets\Scripts\AnchorCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ExampleAssets\Shaders\FeatheredPlaneShader.shader" />
