@@ -169,3 +169,4 @@ Cmd: compileSnippet
 Cmd: compileComputeKernel
   insize=7048 file=C:/Users/eto/Galary36/Library/PackageCache/com.unity.render-pipelines.core@12.1.0/Editor/Lighting/ProbeVolume/ProbeVolumeSubdivide.compute kernel=FillUVMap cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=13 km=<UNITY_VERSION=202121> pKW=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_ENABLE_REFLECTION_BUFFERS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_NO_CUBEMAP_ARRAY UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER SHADER_API_MOBILE UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_DLDR_ENCODING SHADER_API_GLES30 uKW=SHADER_STAGE_COMPUTE platform=gles3 flags=268439552 reqs=16385 forceDXC=0 forceFXC=0 ok=1 outsize=1523
 
+Cmd: shutdown
