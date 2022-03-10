@@ -5,10 +5,10 @@
 [Bb]uild/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
+[Ll]ogs/
 [Oo]bj/
 [Tt]emp/
 [Uu]nityGenerated/
-[Ll]ogs/
 [Uu]ser[Ss]ettings/
 # file on crash reports
 sysinfo.txt
@@ -41,3 +41,7 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 Thumbs.db
+Galary36.sln
+*.log
+Assets/Galary36.sln.meta
+Galary36.sln
