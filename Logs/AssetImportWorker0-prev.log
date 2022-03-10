@@ -1,30 +1,23 @@
-Unity Editor version:    2021.2.1f1 (c20c6d589440)
-Branch:                  2021.2/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.0 (Build 21A344)
-Darwin version:          21.0.1
-Architecture:            x86_64
-Running under Rosetta:   YES
-Available memory:        16384 MB
 Using pre-set license
-Pro License: NO
+Built from '2021.2/staging' branch; Version is '2021.2.1f1 (c20c6d589440) revision 12717165'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22000.493; Version 2009; 64bit' Language: 'en' Physical Memory: 16061 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/2021.2.1f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2021.2.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/filippgerasimov/Documents/GitHub/Galary36
+C:/UnityFiles/Galary36
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61415
-Successfully changed project path to: /Users/filippgerasimov/Documents/GitHub/Galary36
-/Users/filippgerasimov/Documents/GitHub/Galary36
+64469
+Successfully changed project path to: C:/UnityFiles/Galary36
+C:/UnityFiles/Galary36
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,68 +47,69 @@ Successfully changed project path to: /Users/filippgerasimov/Documents/GitHub/Ga
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 137.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 185.04 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 1.30 ms.
 Initialize engine version: 2021.2.1f1 (c20c6d589440)
-[Subsystems] Discovering subsystems at path /Applications/2021.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/filippgerasimov/Documents/GitHub/Galary36/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityFiles/Galary36/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 Pro (high power)
-Metal devices available: 1
-0: Apple M1 Pro (high power)
-Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = '/Applications/2021.2.1f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/2021.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/2021.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56785
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/2021.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001389 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 132.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003054 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 127.82 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.737 seconds
+- Completed reload, in  1.247 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1738ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (1247ms)
+		BeginReloadAssembly (84ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1003ms)
-			LoadAssemblies (146ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (93ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (704ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (320ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (133ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (420ms)
-				ProcessInitializeOnLoadMethodAttributes (132ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006438 seconds.
+Registered in 0.007235 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 140.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Symbol file LoadedFromMemory doesn't match image C:\UnityFiles\Galary36\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\UnityFiles\Galary36\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 145.87 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
@@ -123,362 +117,249 @@ UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEdi
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 102]
 
-UnityEngine.UnityException: Creating asset at path Assets/XR/Loaders/Magic Leap Loader.asset failed.
+UnityEngine.UnityException: Creating asset at path Assets\XR\Loaders\Magic Leap Loader.asset failed.
   at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:102 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeLoaderFromMetadata (System.String packageName, System.Collections.Generic.List`1[T] loaderMetadatas) [0x0004e] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00001] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:118 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87 
-  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50 
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+  at UnityEditor.XR.Management.EditorUtilities.CreateScriptableObjectInstance (System.String typeName, System.String path) [0x00031] in C:\UnityFiles\Galary36\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\EditorUtilities.cs:102 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializeLoaderFromMetadata (System.String packageName, System.Collections.Generic.List`1[T] loaderMetadatas) [0x0004e] in C:\UnityFiles\Galary36\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:152 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage package, UnityEditor.XR.Management.Metadata.IXRPackageMetadata packageMetadata) [0x00001] in C:\UnityFiles\Galary36\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:129 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.InitPackage (UnityEditor.XR.Management.Metadata.IXRPackage package) [0x00030] in C:\UnityFiles\Galary36\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:118 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap.BeginPackageInitialization () [0x0008f] in C:\UnityFiles\Galary36\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:87 
+  at UnityEditor.XR.Management.XRPackageInitializationBootstrap..cctor () [0x00030] in C:\UnityFiles\Galary36\Library\PackageCache\com.unity.xr.management@4.0.7\Editor\XRPackageInitialization.cs:50 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:130)
-
-(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 130)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  3.379 seconds
+- Completed reload, in  2.047 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3382ms)
-		BeginReloadAssembly (321ms)
+	ReloadAssembly (2047ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (37ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (2844ms)
-			LoadAssemblies (133ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1754ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (360ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (2025ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (1160ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (141ms)
-				BeforeProcessingInitializeOnLoad (189ms)
-				ProcessInitializeOnLoadAttributes (1442ms)
-				ProcessInitializeOnLoadMethodAttributes (229ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (146ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (793ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/2021.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5530 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 5980.
-Memory consumption went from 341.1 MB to 340.3 MB.
-Total: 4.291750 ms (FindLiveObjects: 0.375334 ms CreateObjectMapping: 0.164084 ms MarkObjects: 3.392333 ms  DeleteObjects: 0.358000 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 5599 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.7 MB). Loaded Objects now: 6055.
+Memory consumption went from 215.8 MB to 215.1 MB.
+Total: 6.144000 ms (FindLiveObjects: 1.100000 ms CreateObjectMapping: 0.328500 ms MarkObjects: 4.307200 ms  DeleteObjects: 0.407000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 323877.262345 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(7b4b87dbaca872c49ae711265e0e9e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(7b4b87dbaca872c49ae711265e0e9e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f09c933a95d8b19fb6e36666a524d8') in 0.011684 seconds 
+  Time since last request: 29892.191503 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_PREVIEW.jpg
+  artifactKey: Guid(ebcbb153fa29c364aa107bda81f013d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_PREVIEW.jpg using Guid(ebcbb153fa29c364aa107bda81f013d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a6bc4887819f482b4ad7b14896ce1a') in 0.183205 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.888120 seconds.
-  path: Assets/Scenes/BlankAR.unity
-  artifactKey: Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BlankAR.unity using Guid(6bdce89659816455b9f906fc62d19910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a9d603f6d96a63b4f0d1fd024b5880') in 0.016401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 953.585165 seconds.
-  path: Assets/Scenes/AR Session Variant.prefab
-  artifactKey: Guid(c55115d0ee5fe42c6b9acb1040ca8b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AR Session Variant.prefab using Guid(c55115d0ee5fe42c6b9acb1040ca8b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ec3009f922febaaa701684fa88a562') in 0.149305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 136.866779 seconds.
-  path: Packages/com.unity.xr.arcore/package.json
-  artifactKey: Guid(96d3d50e9dd0d654c90f6f35bb673559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arcore/package.json using Guid(96d3d50e9dd0d654c90f6f35bb673559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053b7e33592224b1aff10ee09ec09e0d') in 0.079110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.277049 seconds.
-  path: Packages/com.unity.xr.interactionsubsystems/package.json
-  artifactKey: Guid(c0331c5fc3e74a6498df537348f77bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.interactionsubsystems/package.json using Guid(c0331c5fc3e74a6498df537348f77bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a666701b92d519c2af862c10e19e78') in 0.005054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.225137 seconds.
-  path: Packages/com.unity.xr.management/package.json
-  artifactKey: Guid(a8437ae6df3ab4de78c661f8e1148bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.management/package.json using Guid(a8437ae6df3ab4de78c661f8e1148bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b54d69738ac002e713975a25fe7658') in 0.002166 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 20.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 5980.
-Memory consumption went from 227.4 MB to 226.7 MB.
-Total: 23.086792 ms (FindLiveObjects: 1.090708 ms CreateObjectMapping: 0.239958 ms MarkObjects: 21.387667 ms  DeleteObjects: 0.365500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 5980.
-Memory consumption went from 227.4 MB to 226.7 MB.
-Total: 3.696500 ms (FindLiveObjects: 0.330125 ms CreateObjectMapping: 0.157667 ms MarkObjects: 2.922625 ms  DeleteObjects: 0.285250 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 268.479704 seconds.
-  path: Assets/Galary36/ARScence/Painting/Textures/0A3D9E0B-49B4-4CC2-98BD-C4766CD55AF4-0bfd158e-1021x1024.jpeg
-  artifactKey: Guid(76349cd5f0b8c2b4488315e0d3a94f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Painting/Textures/0A3D9E0B-49B4-4CC2-98BD-C4766CD55AF4-0bfd158e-1021x1024.jpeg using Guid(76349cd5f0b8c2b4488315e0d3a94f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e365b8820a210ab8ffba4951be7125fc') in 1.299724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004046 seconds.
-  path: Assets/Galary36/ARScence/Painting/Textures/9763E077-7409-4307-A415-8F1F3E222663-0cc6ef67-1024x1016.jpeg
-  artifactKey: Guid(2c30aaf337570704fbf1f4d3f6c5bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Painting/Textures/9763E077-7409-4307-A415-8F1F3E222663-0cc6ef67-1024x1016.jpeg using Guid(2c30aaf337570704fbf1f4d3f6c5bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a5eec29ba12132aa16be790c7ace4b') in 0.013878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.025563 seconds.
-  path: Assets/Galary36/ARScence/Painting/Textures/6AE0833D-5840-41EB-A540-E36C2F06F5D8-36c95d46-500x1024.jpeg
-  artifactKey: Guid(fc021fa4a8552d842b6bdb3189b0220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Painting/Textures/6AE0833D-5840-41EB-A540-E36C2F06F5D8-36c95d46-500x1024.jpeg using Guid(fc021fa4a8552d842b6bdb3189b0220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176dbe00a603cc9a4e3c1624d779210b') in 0.022554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014924 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_AmbientOcclusion.jpg
-  artifactKey: Guid(68a31f3999eba9b4185102c95a8bc262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_AmbientOcclusion.jpg using Guid(68a31f3999eba9b4185102c95a8bc262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9bcb312aac98861cda60fbbff2892a') in 0.967296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.013595 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Color.jpg
-  artifactKey: Guid(f96b6f40ae8c694448c40da686093570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Color.jpg using Guid(f96b6f40ae8c694448c40da686093570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ffb1f63aa1fba03a19c1c9d90d5343') in 0.009668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049461 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_NormalDX.jpg
-  artifactKey: Guid(209e1260bb83df344a85362fb10b7014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_NormalDX.jpg using Guid(209e1260bb83df344a85362fb10b7014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3655384ca05c71ab8a7073a384f412fa') in 0.009662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.048424 seconds.
-  path: Assets/Galary36/ARScence/Painting/Textures/9CC3D9E4-1EF6-4993-A648-452FA1A212FC-264f92b2-1024x729.jpeg
-  artifactKey: Guid(bdd9c342e8d7d7a489abbf5981a1a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Painting/Textures/9CC3D9E4-1EF6-4993-A648-452FA1A212FC-264f92b2-1024x729.jpeg using Guid(bdd9c342e8d7d7a489abbf5981a1a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5f51ddd18ba792813702efd8abe05a') in 0.007650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000707 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_NormalGL.jpg
-  artifactKey: Guid(c8b37ace1003c974298e71f5a9dddb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_NormalGL.jpg using Guid(c8b37ace1003c974298e71f5a9dddb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae160428189fd9acbe2fda2a43421f3') in 0.009710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Roughness.jpg
-  artifactKey: Guid(8dfd98d003ec23e48a44cd192d3eb39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Roughness.jpg using Guid(8dfd98d003ec23e48a44cd192d3eb39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5459a0fbab9e81a6f38ce031b8b968e') in 0.009829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.192345 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_PREVIEW.jpg
-  artifactKey: Guid(7a57f4520afbe7c4ca985b8fd3243cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_PREVIEW.jpg using Guid(7a57f4520afbe7c4ca985b8fd3243cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a908eb049a22bece712e22214fd10b9') in 0.009692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002293 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_AmbientOcclusion.jpg
-  artifactKey: Guid(56c3cc188acfe9b44a7b9e72a5abb4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_AmbientOcclusion.jpg using Guid(56c3cc188acfe9b44a7b9e72a5abb4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce42d24cfeb9550d06569b3ffa484a2') in 0.009509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.082881 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Color.jpg
-  artifactKey: Guid(d9379f08a5483e84384c2c601ae4bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Color.jpg using Guid(d9379f08a5483e84384c2c601ae4bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef02a80756b21df7802ff6514a289045') in 0.012033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Displacement.jpg
-  artifactKey: Guid(ef5e5c0e952069b4eacbacfa12904dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Displacement.jpg using Guid(ef5e5c0e952069b4eacbacfa12904dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8327d0d28085e48da99413b0cde559') in 0.012888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.167613 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_NormalDX.jpg
-  artifactKey: Guid(dde47520b8eb63a408acdf610c4a3bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_NormalDX.jpg using Guid(dde47520b8eb63a408acdf610c4a3bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aabff675ccb9a911b982bccc9d335c3') in 0.009824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.086456 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Roughness.jpg
-  artifactKey: Guid(ec3541d07f3708e45baf0ceb2e76d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Roughness.jpg using Guid(ec3541d07f3708e45baf0ceb2e76d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f94a4822db8d9aefcc4e73ab6bb1a8b') in 0.009664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.056866 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_AmbientOcclusion.jpg
-  artifactKey: Guid(8a5ba72be8276514bb9db8c575b579a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_AmbientOcclusion.jpg using Guid(8a5ba72be8276514bb9db8c575b579a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c6cc6cb23415f1955aa9477517f795') in 0.009549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.122785 seconds.
+  Time since last request: 0.000041 seconds.
   path: Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_Displacement.jpg
   artifactKey: Guid(2ee4d2afe8d7b2845932a77a6fc06c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_Displacement.jpg using Guid(2ee4d2afe8d7b2845932a77a6fc06c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5471a6ac79e32d2889813dd8ddeaa731') in 0.011113 seconds 
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_Displacement.jpg using Guid(2ee4d2afe8d7b2845932a77a6fc06c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdff8044a87247106782f7981636bf0') in 0.054351 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.087759 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_NormalGL.jpg
-  artifactKey: Guid(73158af37b4300d449ddc83778cb5227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_NormalGL.jpg using Guid(73158af37b4300d449ddc83778cb5227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf255d88016035d2d2cd826948b56a56') in 0.009873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040890 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_PREVIEW.jpg
-  artifactKey: Guid(47310678edd603e4f8b01a0264f90093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_PREVIEW.jpg using Guid(47310678edd603e4f8b01a0264f90093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4453d76f0dccac6cd8255f90d1c7773') in 0.010062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.160742 seconds.
-  path: Assets/Galary36/InitScence/UI/Textures/Initialize Button.png
-  artifactKey: Guid(c0f70c0e6c840144c810e13af6bdb449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/InitScence/UI/Textures/Initialize Button.png using Guid(c0f70c0e6c840144c810e13af6bdb449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd215cbd93aa7165076614e6beefa7740') in 0.408108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010055 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_Roughness.jpg
-  artifactKey: Guid(0da256a2d3f99f8428f4ce6d4ee8501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_Roughness.jpg using Guid(0da256a2d3f99f8428f4ce6d4ee8501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd152b184a0fbc37b9484e1e1e757073') in 0.009070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001512 seconds.
-  path: Assets/ExampleAssets/Textures/PlanePatternDot.png
-  artifactKey: Guid(af6bcea09b8134831b6599e2900aef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Textures/PlanePatternDot.png using Guid(af6bcea09b8134831b6599e2900aef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6eaf2ed2f089262ff3f190d96a26bee') in 0.008035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001308 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Color.jpg
-  artifactKey: Guid(f51b046cbc832fe4c88394979e11506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Color.jpg using Guid(f51b046cbc832fe4c88394979e11506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2138c67595d6dbd224451ed727cfdb9') in 0.008736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009107 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_NormalGL.jpg
-  artifactKey: Guid(a28a5311b1b97be49aa1e3ea9d952faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_NormalGL.jpg using Guid(a28a5311b1b97be49aa1e3ea9d952faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e041be379218cc34f3f5cca9b18a2666') in 0.009382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005465 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Roughness.jpg
-  artifactKey: Guid(f25f65ee849ad7f4293f2ea64fb67a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Roughness.jpg using Guid(f25f65ee849ad7f4293f2ea64fb67a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d07705e886b914b474da4b1622628d8') in 0.009717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.066085 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_NormalGL.jpg
-  artifactKey: Guid(0d9eab449f5e758478fc9705a80408a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_NormalGL.jpg using Guid(0d9eab449f5e758478fc9705a80408a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08380662c18194d9b9d429922592ceb9') in 0.009150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015782 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_PREVIEW.jpg
-  artifactKey: Guid(22689ea79276133409454f4467267d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_PREVIEW.jpg using Guid(22689ea79276133409454f4467267d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939f11504dc2346da8ac83fe097266ba') in 0.011158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.738460 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Displacement.jpg
-  artifactKey: Guid(2af3dfb5117b1994b921145f14beab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Displacement.jpg using Guid(2af3dfb5117b1994b921145f14beab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342352743d2426b4df3d4ffaa45902c2') in 0.010984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.115487 seconds.
+  Time since last request: 0.000035 seconds.
   path: Assets/ExampleAssets/Tutorial/Images/project-header-ar.png
   artifactKey: Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets/Tutorial/Images/project-header-ar.png using Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f553ae300dc254699ff6db1002dbb58e') in 0.008719 seconds 
+Start importing Assets/ExampleAssets/Tutorial/Images/project-header-ar.png using Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d715115af29e4c701ac060acd1aacb3') in 0.030849 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.272084 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_Roughness.jpg
-  artifactKey: Guid(6629e6e5c94ada24bb19d17dc0ba467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_Roughness.jpg using Guid(6629e6e5c94ada24bb19d17dc0ba467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982f2b025058a5f9a34c030213499a2c') in 0.008926 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Roughness.jpg
+  artifactKey: Guid(f25f65ee849ad7f4293f2ea64fb67a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Roughness.jpg using Guid(f25f65ee849ad7f4293f2ea64fb67a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0188f1710499e2222f3b4a0ea62db86') in 0.092413 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.071360 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_NormalDX.jpg
-  artifactKey: Guid(bfa20f4ec4a7d42419b718f29c49c00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_NormalDX.jpg using Guid(bfa20f4ec4a7d42419b718f29c49c00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a628596b7d374559215bb625b532f1ca') in 0.010852 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_NormalGL.jpg
+  artifactKey: Guid(6f517bb79b71e0143a08ae34f0724352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_NormalGL.jpg using Guid(6f517bb79b71e0143a08ae34f0724352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cc9c4a5dc0dad95afbf151ac7724db') in 0.051116 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.096126 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_Color.jpg
-  artifactKey: Guid(e943033dd30735746929041db50c56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_Color.jpg using Guid(e943033dd30735746929041db50c56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ef21adcef01f976df71c35954e84f7') in 0.009751 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_NormalDX.jpg
+  artifactKey: Guid(6ae9afe4c4ec82244a99169483cd1c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_NormalDX.jpg using Guid(6ae9afe4c4ec82244a99169483cd1c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f417e7fa9e11a049bf0bddbb0e92d4') in 0.053527 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008938 seconds.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_Roughness.jpg
+  artifactKey: Guid(71832d60add429c498581bb2ff3d88ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_Roughness.jpg using Guid(71832d60add429c498581bb2ff3d88ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214f7edb935d65de7a8159d074dd646f') in 0.061363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
   path: Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_PREVIEW.jpg
   artifactKey: Guid(38cd45bc69cfa65439607405f7ef40e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_PREVIEW.jpg using Guid(38cd45bc69cfa65439607405f7ef40e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4180804f8b0e2b51d88f1a5891795f6') in 0.009669 seconds 
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_PREVIEW.jpg using Guid(38cd45bc69cfa65439607405f7ef40e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b7cc92522aa83fb7decc07c74faf6c') in 0.052091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_Displacement.jpg
+  artifactKey: Guid(1d9673f2bf071474096c1a9d470d17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_1K_Displacement.jpg using Guid(1d9673f2bf071474096c1a9d470d17ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b00969492bf4cecebbe25aa62a86091') in 0.058112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Color.jpg
+  artifactKey: Guid(f51b046cbc832fe4c88394979e11506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall04/Plaster001_1K_Color.jpg using Guid(f51b046cbc832fe4c88394979e11506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5397ecb268d6206e87a85f6d66db10b') in 0.063247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_Roughness.jpg
+  artifactKey: Guid(0da256a2d3f99f8428f4ce6d4ee8501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_Roughness.jpg using Guid(0da256a2d3f99f8428f4ce6d4ee8501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff38c8817e75417c17933b137e45df6f') in 0.038358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_PREVIEW.jpg
+  artifactKey: Guid(2b3edc3bb45e8ce48aed53de06bf0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_PREVIEW.jpg using Guid(2b3edc3bb45e8ce48aed53de06bf0d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bde1752a2639500096c9d94cc409d2e') in 0.062034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_PREVIEW.jpg
+  artifactKey: Guid(13d1192612e50204d984029a3e1164ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall07/Plaster002_PREVIEW.jpg using Guid(13d1192612e50204d984029a3e1164ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d378de6204cb1e8de3e6519595e39c') in 0.059136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_NormalGL.jpg
+  artifactKey: Guid(73158af37b4300d449ddc83778cb5227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall02/Fabric062_1K_NormalGL.jpg using Guid(73158af37b4300d449ddc83778cb5227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4944655495d07b51842dfc0261466648') in 0.054074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.353055 seconds.
+  path: Assets/Galary36/ARScence/Painting/Textures/0A3D9E0B-49B4-4CC2-98BD-C4766CD55AF4-0bfd158e-1021x1024.jpeg
+  artifactKey: Guid(76349cd5f0b8c2b4488315e0d3a94f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Painting/Textures/0A3D9E0B-49B4-4CC2-98BD-C4766CD55AF4-0bfd158e-1021x1024.jpeg using Guid(76349cd5f0b8c2b4488315e0d3a94f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850bb9715d6107a626c766a829707926') in 0.035243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Displacement.jpg
+  artifactKey: Guid(a5604d0f06952d24fa760e8bf2e67cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Displacement.jpg using Guid(a5604d0f06952d24fa760e8bf2e67cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253f08dad858fb5ce9cbf6e837dfc223') in 0.041336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Galary36/ARScence/Painting/Textures/AD03F739-EE7B-41A3-9766-496552F5DAAE-a8ee3286-1024x678.jpeg
+  artifactKey: Guid(b28c250ed46a596489088c4a5745e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Painting/Textures/AD03F739-EE7B-41A3-9766-496552F5DAAE-a8ee3286-1024x678.jpeg using Guid(b28c250ed46a596489088c4a5745e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64b1a6796d8e353322a96b23efa6f07') in 0.029950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_PREVIEW.jpg
+  artifactKey: Guid(7a57f4520afbe7c4ca985b8fd3243cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_PREVIEW.jpg using Guid(7a57f4520afbe7c4ca985b8fd3243cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3d0af7e63c4a1dfa9f7acc5fda5487') in 0.045915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Displacement.jpg
+  artifactKey: Guid(ef5e5c0e952069b4eacbacfa12904dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Displacement.jpg using Guid(ef5e5c0e952069b4eacbacfa12904dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46c31d1ed45c46cd662a84092624767') in 0.037050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Color.jpg
+  artifactKey: Guid(f96b6f40ae8c694448c40da686093570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_Color.jpg using Guid(f96b6f40ae8c694448c40da686093570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabf5ac57911e54faae69284ded095ad') in 0.041192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_NormalDX.jpg
+  artifactKey: Guid(209e1260bb83df344a85362fb10b7014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_NormalDX.jpg using Guid(209e1260bb83df344a85362fb10b7014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441ea4ce7d81e2df3f914266bbbc2572') in 0.044051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Galary36/ARScence/Painting/Textures/9CC3D9E4-1EF6-4993-A648-452FA1A212FC-264f92b2-1024x729.jpeg
+  artifactKey: Guid(bdd9c342e8d7d7a489abbf5981a1a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Painting/Textures/9CC3D9E4-1EF6-4993-A648-452FA1A212FC-264f92b2-1024x729.jpeg using Guid(bdd9c342e8d7d7a489abbf5981a1a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb79284f657c6cfe6c37b8ccfeb7266') in 0.028323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_NormalGL.jpg
+  artifactKey: Guid(c8b37ace1003c974298e71f5a9dddb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall03/Bricks060_1K_NormalGL.jpg using Guid(c8b37ace1003c974298e71f5a9dddb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaf2d376e379155ce7e1745c97f6023') in 0.055882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Color.jpg
+  artifactKey: Guid(d9379f08a5483e84384c2c601ae4bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall05/Fabric045_1K_Color.jpg using Guid(d9379f08a5483e84384c2c601ae4bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdb1e84e1f0ed0722afa642ff5bf8be') in 0.037225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.691586 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Color.jpg
+  artifactKey: Guid(57d5a7d53cf984b4489bfa4df0e6a78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Color.jpg using Guid(57d5a7d53cf984b4489bfa4df0e6a78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2116f96f340bc8804bce24a082948b23') in 0.056396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Roughness.jpg
+  artifactKey: Guid(ae2a464bf166064469c65330784c119f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_Roughness.jpg using Guid(ae2a464bf166064469c65330784c119f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687495f2a652f7fe6a6bf602f58abefe') in 0.045639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_NormalGL.jpg
+  artifactKey: Guid(0d9eab449f5e758478fc9705a80408a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/ARScence/Wall/Material/Wall06/Terrazzo018_1K_NormalGL.jpg using Guid(0d9eab449f5e758478fc9705a80408a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41be7e4cf5d660afbf72dd1c3cb7ece') in 0.041092 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002632 seconds.
+Registered in 0.007856 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/filippgerasimov/Documents/GitHub/Galary36/Library/PackageCache/com.unity.visualscripting@1.7.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Symbol file LoadedFromMemory doesn't match image C:\UnityFiles\Galary36\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\UnityFiles\Galary36\Library\PackageCache\com.unity.visualscripting@1.7.2\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:29)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
 UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
@@ -486,12 +367,12 @@ UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEdi
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
 
 We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
@@ -502,12 +383,12 @@ UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEdi
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
 
 Error creating instance of loader Magic Leap for package Magic Leap Plugin
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
@@ -517,13 +398,13 @@ UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEdi
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
 
 Instance of UnityEngine.XR.MagicLeap.MagicLeapLoader couldn't be created because there is no script with that name.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.ScriptableObject:CreateInstance (string) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/ScriptableObject.bindings.cs:29)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.ScriptableObject:CreateInstance (string)
 UnityEditor.XR.Management.EditorUtilities:CreateScriptableObjectInstance (string,string) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs:95)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializeLoaderFromMetadata (string,System.Collections.Generic.List`1<UnityEditor.XR.Management.Metadata.IXRLoaderMetadata>) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:152)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitializePackageFromMetadata (UnityEditor.XR.Management.Metadata.IXRPackage,UnityEditor.XR.Management.Metadata.IXRPackageMetadata) (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:129)
@@ -531,12 +412,12 @@ UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEdi
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs line 95]
 
 We were unable to create an instance of the requested type UnityEngine.XR.MagicLeap.MagicLeapLoader. Please make sure that all packages are updated to support this version of XR Plug-In Management. See the Unity documentation for XR Plug-In Management for information on resolving this issue.
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
@@ -547,12 +428,12 @@ UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEdi
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/EditorUtilities.cs Line: 108)
 
 Error creating instance of loader Magic Leap Zero Iteration for package Magic Leap Plugin
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
@@ -562,153 +443,79 @@ UnityEditor.XR.Management.XRPackageInitializationBootstrap:InitPackage (UnityEdi
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:BeginPackageInitialization () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:87)
 UnityEditor.XR.Management.XRPackageInitializationBootstrap:.cctor () (at Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs:50)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 (Filename: Library/PackageCache/com.unity.xr.management@4.0.7/Editor/XRPackageInitialization.cs Line: 157)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  3.165 seconds
+- Completed reload, in  1.609 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3167ms)
-		BeginReloadAssembly (304ms)
+	ReloadAssembly (1609ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (112ms)
-		EndReloadAssembly (2640ms)
-			LoadAssemblies (154ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1436ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (402ms)
+			SetupTypeCache (207ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (1698ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (426ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (163ms)
-				ProcessInitializeOnLoadAttributes (1259ms)
-				ProcessInitializeOnLoadMethodAttributes (239ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (43ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(2) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5438 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 6492.
-Memory consumption went from 384.2 MB to 383.5 MB.
-Total: 4.565500 ms (FindLiveObjects: 0.409666 ms CreateObjectMapping: 0.164375 ms MarkObjects: 3.672542 ms  DeleteObjects: 0.317917 ms)
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(2) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 5474 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 6467.
+Memory consumption went from 232.9 MB to 232.3 MB.
+Total: 3.740300 ms (FindLiveObjects: 0.556600 ms CreateObjectMapping: 0.246800 ms MarkObjects: 2.696000 ms  DeleteObjects: 0.239700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.898549 seconds.
-  path: Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_NormalDX.jpg
-  artifactKey: Guid(6ae9afe4c4ec82244a99169483cd1c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence/Wall/Material/Wall01/PaintedPlaster017_1K_NormalDX.jpg using Guid(6ae9afe4c4ec82244a99169483cd1c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccbe4ffb76af2b976290a58d64b041a') in 0.082054 seconds 
+  Time since last request: 223.621004 seconds.
+  path: Assets/Galary36/Common/SplachScreen/logo копия.png
+  artifactKey: Guid(40b428cb0427f4969b9a3c3f531d2da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Galary36/Common/SplachScreen/logo копия.png using Guid(40b428cb0427f4969b9a3c3f531d2da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cbd47032ded8763318e8d9ed00d540') in 0.369674 seconds 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 3.34 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 6493.
-Memory consumption went from 275.7 MB to 275.0 MB.
-Total: 12.000208 ms (FindLiveObjects: 0.766125 ms CreateObjectMapping: 0.161875 ms MarkObjects: 10.678042 ms  DeleteObjects: 0.392875 ms)
+Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 6473.
+Memory consumption went from 127.5 MB to 126.8 MB.
+Total: 4.588600 ms (FindLiveObjects: 0.458300 ms CreateObjectMapping: 0.572900 ms MarkObjects: 3.266000 ms  DeleteObjects: 0.290300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 743.064943 seconds.
-  path: Assets/URP Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(06ed4d080c2225e41a209accc59e0fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(06ed4d080c2225e41a209accc59e0fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9361b3762747c0afc66a2cf1055a1db') in 0.155695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003155 seconds.
-  path: Assets/URP Settings/URP_Renderer.asset
-  artifactKey: Guid(27d7c2c9b01762341ab58ea9739d6e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/URP Settings/URP_Renderer.asset using Guid(27d7c2c9b01762341ab58ea9739d6e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd685e97520ac4fcad2f9d26f0d5d27cd') in 0.004415 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 6493.
-Memory consumption went from 279.8 MB to 279.1 MB.
-Total: 13.521791 ms (FindLiveObjects: 0.942708 ms CreateObjectMapping: 0.179875 ms MarkObjects: 11.999750 ms  DeleteObjects: 0.398292 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (0.7 MB). Loaded Objects now: 6493.
-Memory consumption went from 279.9 MB to 279.2 MB.
-Total: 35.009916 ms (FindLiveObjects: 1.240333 ms CreateObjectMapping: 0.182334 ms MarkObjects: 33.181500 ms  DeleteObjects: 0.404209 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 699.197010 seconds.
-  path: Assets/Galary36
-  artifactKey: Guid(6213c161dd09b0e49ac68cffe950c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36 using Guid(6213c161dd09b0e49ac68cffe950c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d0b5b81b67a556e96ad66cab2d786b') in 0.002556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.463384 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(a3397ca59aa2845d9b6915a23e597665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(a3397ca59aa2845d9b6915a23e597665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bca85a78a6452f9b56bfaa3bc4c15f3') in 0.002162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.235624 seconds.
-  path: Assets/Galary36/Common
-  artifactKey: Guid(12dc774a141aba44f83936dc2cd5124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/Common using Guid(12dc774a141aba44f83936dc2cd5124b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89693e8f49389461f5c0cb5c3a2360fe') in 0.002656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.340729 seconds.
-  path: Assets/Galary36/ARScence
-  artifactKey: Guid(7e4405310d03f0c418bc6e6a5fa8c388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Galary36/ARScence using Guid(7e4405310d03f0c418bc6e6a5fa8c388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583f244de9352e423ce42af8e3f0aa3f') in 0.002511 seconds 
