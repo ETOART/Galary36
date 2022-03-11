@@ -567,11 +567,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 4.9787536
       objectReference: {fileID: 0}
+    - target: {fileID: 2082726682476569487, guid: af2e8bbe16911bc4697c395397fb206f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3617003870939957673, guid: af2e8bbe16911bc4697c395397fb206f,
         type: 3}
       propertyPath: _texture
       value: 
-      objectReference: {fileID: 2800000, guid: 3a0b4193541bf4645a04f78fd2367d11, type: 3}
+      objectReference: {fileID: 2800000, guid: f14825995cbdabf4cab83fd43109ce2a, type: 3}
     - target: {fileID: 4678582984865378986, guid: af2e8bbe16911bc4697c395397fb206f,
         type: 3}
       propertyPath: m_LocalScale.x
